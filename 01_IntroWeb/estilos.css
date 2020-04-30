@@ -1,0 +1,47 @@
+/* Selector {
+    propiedades : valor;
+} */
+
+* {
+    background-color: #16b4f3;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 200px;
+}
+
+.l1{
+    color: blueviolet;
+}
+
+.l2{
+    color: chartreuse;
+}
+
+.l3{
+    color: goldenrod;
+}
+
+/* 
+Nombre
+Description
+Imagenes de FB 
+Lista de pasatiempos
+Links a sus redes sociales 
+
+*/
