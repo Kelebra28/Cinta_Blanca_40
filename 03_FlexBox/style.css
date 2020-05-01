@@ -1,0 +1,24 @@
+
+
+.padre {
+    border: 1px black solid;
+    height: 400px;
+    display: flex;
+    /* Mueve elementos horizontalmente */
+    justify-content: center;
+    /* Mueve elementos verticalmente */
+    align-items: center;
+    /* Invierte los ejes y pone los elemtos en columna */
+    flex-direction: column-reverse;
+}
+
+.hijo {
+    border: 1px blue solid;
+    height: 30%;
+    width: 30%;
+}
+.hija {
+    border: 1px rgb(216, 10, 205) solid;
+    height: 30%;
+    width: 30%;
+}
