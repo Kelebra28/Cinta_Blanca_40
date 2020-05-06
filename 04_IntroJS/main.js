@@ -37,9 +37,9 @@ console.log(nombreCompleto);
 
 // ----Entradas o inputs----
 
-var pregunta =  prompt('Ingresa tu nombre');
+// var pregunta =  prompt('Ingresa tu nombre');
 
-console.log(pregunta);
+// console.log(pregunta);
 
 //Challenge
 
@@ -49,3 +49,17 @@ console.log(pregunta);
 
 //       2
 //Preguntar el anio en que nacio y mostrar en la consola que edad deberia de tener este anio
+
+var anio = prompt('Ingresa tu año');//string
+
+// console.log(typeof(anio))
+var numeroAnio = Number(anio)//numerico
+// console.log(typeof(numeroAnio));
+var edadReal = 2020 - numeroAnio;
+//Cambia el valor a numerico
+// parseInt o Number
+
+// console.log(edadReal);
+
+
+
