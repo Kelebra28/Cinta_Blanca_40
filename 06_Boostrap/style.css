@@ -1,0 +1,29 @@
+.my-image{
+    width: 500px;
+    height: 350px;
+}
+
+.my-carrusel{
+    width: 500px;
+    height: 350px;
+}
+
+.my-scroll{
+    width: 1000px;
+}
+
+.products{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.my-card{
+ background-color: black;  
+ color: white; 
+}
+
+/* h5, p {
+    color: white;
+} */

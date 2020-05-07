@@ -9,11 +9,17 @@
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.my-icon {
+    color: white;
+    font-size: 150px;
 }
 
 p {
     color: white;
     font-size: 25px;
+    font-family: 'Pacifico', cursive;
 }
 
 a {
