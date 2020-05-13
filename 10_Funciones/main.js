@@ -54,3 +54,8 @@ const mutiplicacion = (x , y) => {
 }
 
 console.log(mutiplicacion(10, 5))
+
+
+//Una Funcion para sabe el area de un cuadrado
+//Una funcion para saber el area de rectangulo
+//Una funcion para saber el area de un Triangulo 
