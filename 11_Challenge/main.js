@@ -20,9 +20,23 @@ const ordenar = () => {
     textoNombre.innerHTML = 'Nombre: ' + preguntaNombre.value
     textoDireccion.innerHTML = 'Direccion : ' + preguntaDireccion.value
     textoTelefono.innerHTML = 'Telefono: ' + preguntaTelefono.value
-    textoPizza.innerHTML =  'Piña o no: ' +  preguntaPizza.value
-
+    
+    // Aparece la card
     card.classList.remove('none')
+
+    let pizzaReal = preguntaPizza.value
+    let compararPizza = pizzaReal.toLowerCase()
+
+
+    if(compararPizza === 'si'){
+        textoPizza.innerHTML = '😭'
+    }else if(compararPizza === 'no'){
+        textoPizza.innerHTML = '🥰'
+    }else{
+        textoPizza.innerHTML = 'Datos incorrectos 🤯'
+    }
+
+
 
 } 
 
