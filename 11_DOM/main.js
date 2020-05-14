@@ -6,6 +6,7 @@ let texto = document.getElementById('texto')
 let respuesta = document.getElementById('respuesta')
 
 
+
 const cambio = () => {
 
     //innerHTML pinta el valor en html
