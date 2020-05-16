@@ -7,15 +7,21 @@ let preguntaPizza = document.getElementById('preguntaPizza')
 let textoNombre = document.getElementById('textoNombre')
 let textoDireccion = document.getElementById('textoDireccion')
 let textoTelefono = document.getElementById('textoTelefono')
-let textoPizza = document.getElementById('textoPizza')
+
 //Boton
 let boton = document.getElementById('botonOrdenar')
 //Card
 let card = document.getElementById('card')
+//Imagenes
+let peperoni = document.getElementById('peperoni')
+let hawaiana = document.getElementById('hawaiana')
+let incorrecto = document.getElementById('incorrecto')
 
 
 
 const ordenar = () => {
+
+
 
     textoNombre.innerHTML = 'Nombre: ' + preguntaNombre.value
     textoDireccion.innerHTML = 'Direccion : ' + preguntaDireccion.value
@@ -29,11 +35,17 @@ const ordenar = () => {
 
 
     if(compararPizza === 'si'){
-        textoPizza.innerHTML = '😭'
+        hawaiana.classList.remove('none')
+        peperoni.classList.add('none')
+        incorrecto.classList.add('none')
     }else if(compararPizza === 'no'){
-        textoPizza.innerHTML = '🥰'
+        peperoni.classList.remove('none')
+        hawaiana.classList.add('none')
+        incorrecto.classList.add('none')
     }else{
-        textoPizza.innerHTML = 'Datos incorrectos 🤯'
+       incorrecto.classList.remove('none')
+       hawaiana.classList.add('none')
+       peperoni.classList.add('none')
     }
 
 
